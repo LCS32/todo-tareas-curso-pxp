@@ -1,0 +1,9 @@
+<h1>Listado de Tareas</h1>
+<mat-card *ngFor="let tarea of tareas" style="margin: 8px">
+    <mat-card-title>{{tarea.usuario}}</mat-card-title>
+    <mat-card-content>
+        <p>
+            {{tarea.trabajo}}
+        </p>
+    </mat-card-content>
+</mat-card>
